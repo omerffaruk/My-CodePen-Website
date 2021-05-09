@@ -1,0 +1,127 @@
+
+body {
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Lora", serif;
+}
+@media screen and (min-width: 240px) {
+  body {
+    background-color: rgb(239, 247, 246);
+  }
+}
+
+header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 100px;
+  background-color: rgb(132, 206, 235);
+}
+
+#header-img {
+   height: 100px;
+    width: 120px;
+    float: left;
+}
+
+#nav-bar {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#nav-bar li {
+  display: inline;
+  padding: 60px;
+  font-size: 30px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(213, 222, 222);
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: serif;
+  font-weight: 600;
+  font-style: italic;
+}
+   
+#video {
+  padding: 20px;
+  margin-left: 260px;
+}
+
+#about {
+  margin-top: 150px;
+}
+
+#about-img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5%;
+}
+
+.information {
+  padding: 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: justify;
+}
+
+#email-form {
+  padding: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#submit {
+  background-color: rgb(132, 206, 235);
+  border-radius: 20%;
+  border: 2px solid;
+  font-weight: 600;
+}
+
+#submit:hover {
+  background: rgb(132, 216, 219);
+  color: white;
+}
+
+#email {
+  border-radius: 5%;
+  border: 2px solid;
+  width: 250px;
+}
+
+#contact {
+  padding: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#instagram-address {
+  color: rgb(10, 12, 252);
+}
+
+#instagram-address:hover {
+  color: rgb(50, 180, 150);
+  text-decoration: underline;
+}
+
